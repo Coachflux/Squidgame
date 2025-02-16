@@ -52,13 +52,13 @@ var gameSettings = {
 			end:'#B20000'
 		},
 		instruction:{color:'#000', x:0, y:0},
-		countTime:3,
-		peekTime:6,
+		countTime:6,
+		peekTime:3,
 		decreaseTime:.2,
 		players:50,
-		length:85,
+		length:80,
 		dead:[5,15],
-		timer:100000
+		timer:120000
 	},
 	game2:{
 		name:'DALGONA CANDY',
