@@ -53,7 +53,7 @@ var gameSettings = {
 		},
 		instruction:{color:'#000', x:0, y:0},
 		countTime:3,
-		peekTime:3,
+		peekTime:6,
 		decreaseTime:.2,
 		players:50,
 		length:85,
