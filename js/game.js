@@ -58,7 +58,7 @@ var gameSettings = {
 		players:50,
 		length:85,
 		dead:[5,15],
-		timer:30000
+		timer:100000
 	},
 	game2:{
 		name:'DALGONA CANDY',
@@ -87,7 +87,7 @@ var gameSettings = {
 		],
 		drawColor:'#A66B35',
 		drawStroke:20,
-		timer:30000
+		timer:100000
 	},
 	game3:{
 		name:'TUG OF WAR',
