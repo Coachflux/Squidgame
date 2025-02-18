@@ -44,8 +44,8 @@ function initPreload(){
 			{src:'assets/button_level.png', id:'buttonLevel'},
 			{src:'assets/button_arrow1.png', id:'buttonArrow'},
 			
-			{src:'assets/button_confirm1.png', id:'buttonConfirm'},
-			{src:'assets/button_cancel1.png', id:'buttonCancel'},
+			{src:'assets/button_confirm.png', id:'buttonConfirm'},
+			{src:'assets/button_cancel.png', id:'buttonCancel'},
 			{src:'assets/item_confirm.png', id:'itemExit'},
 			{src:'assets/item_confirm_p.png', id:'itemExitP'},
 			
