@@ -40,9 +40,9 @@ function initPreload(){
 			{src:'assets/button_odd.png', id:'buttonOdd'},
 			{src:'assets/button_even.png', id:'buttonEven'},
 			{src:'assets/item_center.png', id:'itemCenter'},
-			{src:'assets/item_control2.png', id:'itemControl'},
+			{src:'assets/item_control.png', id:'itemControl'},
 			{src:'assets/button_level.png', id:'buttonLevel'},
-			{src:'assets/button_arrow1.png', id:'buttonArrow'},
+			{src:'assets/button_arrow.png', id:'buttonArrow'},
 			
 			{src:'assets/button_confirm.png', id:'buttonConfirm'},
 			{src:'assets/button_cancel.png', id:'buttonCancel'},
@@ -60,7 +60,7 @@ function initPreload(){
 			{src:'assets/button_sound_off.png', id:'buttonSoundOff'},
 			{src:'assets/button_music_on.png', id:'buttonMusicOn'},
 			{src:'assets/button_music_off.png', id:'buttonMusicOff'},
-			{src:'assets/button_exit1.png', id:'buttonExit'},
+			{src:'assets/button_exit.png', id:'buttonExit'},
 		{src:'assets/button_settings.png', id:'buttonSettings'}];
 
 
