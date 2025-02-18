@@ -34,10 +34,10 @@ var gameSettings = {
 		textColor:'#CC17B2',
 		textShadowColor:'#6D2767',
 		background:{
-			base0: { src:'assets/bg_game1.png'},
-			base1: { src:'assets/bg_game1_hill.png'},
-			base2: { src:'assets/bg_cloud.png'},
-			base3: { src:'assets/bg_game1_grass.png'}
+			base0: { src:'assets/bg_game_sky1.png'},
+			base1: { src:'assets/bg_game1_hill1.png'},
+			base2: { src:'assets/bg_cloud1.png'},
+			base3: { src:'assets/bg_game1_grass1.png'}
 		},
 		items:{
 			tree: { src:'assets/item_game1_tree.png'},
@@ -52,13 +52,13 @@ var gameSettings = {
 			end:'#B20000'
 		},
 		instruction:{color:'#000', x:0, y:0},
-		countTime:3,
+		countTime:6,
 		peekTime:3,
 		decreaseTime:.2,
-		players:50,
-		length:85,
+		players:100,
+		length:90,
 		dead:[5,15],
-		timer:30000
+		timer:120000
 	},
 	game2:{
 		name:'DALGONA CANDY',
