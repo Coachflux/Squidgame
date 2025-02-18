@@ -34,10 +34,10 @@ var gameSettings = {
 		textColor:'#CC17B2',
 		textShadowColor:'#6D2767',
 		background:{
-			base0: { src:'assets/bg_game_sky1.png'},
-			base1: { src:'assets/bg_game1_hill1.png'},
-			base2: { src:'assets/bg_cloud1.png'},
-			base3: { src:'assets/bg_game1_grass1.png'}
+			base0: { src:'assets/bg_game1.png'},
+			base1: { src:'assets/bg_game1_hill.png'},
+			base2: { src:'assets/bg_cloud.png'},
+			base3: { src:'assets/bg_game1_grass.png'}
 		},
 		items:{
 			tree: { src:'assets/item_game1_tree.png'},
@@ -52,13 +52,13 @@ var gameSettings = {
 			end:'#B20000'
 		},
 		instruction:{color:'#000', x:0, y:0},
-		countTime:6,
+		countTime:3,
 		peekTime:3,
 		decreaseTime:.2,
-		players:100,
+		players:50,
 		length:85,
 		dead:[5,15],
-		timer:120000
+		timer:30000
 	},
 	game2:{
 		name:'DALGONA CANDY',
@@ -66,8 +66,8 @@ var gameSettings = {
 		textShadowColor:'#6D2767',
 		background:{
 			base0: { src:'assets/bg_game1.png'},
-			base1: { src:'assets/bg_game2_hill1.png'},
-			base2:   { src:'assets/bg_cloud1.png'},
+			base1: { src:'assets/bg_game2_hill.png'},
+			base2:   { src:'assets/bg_cloud.png'},
 			base3: { src:'assets/bg_game2_playground.png'}
 		},
 		path:{
@@ -87,7 +87,7 @@ var gameSettings = {
 		],
 		drawColor:'#A66B35',
 		drawStroke:20,
-		timer:100000
+		timer:30000
 	},
 	game3:{
 		name:'TUG OF WAR',
@@ -113,7 +113,7 @@ var gameSettings = {
 		players:20,
 		oppSpeed:[10, 20],
 		userSpeed:[20, 35],
-		timer:90000
+		timer:30000
 	},
 	game4:{
 		name:'MARBLE GAME',
@@ -121,7 +121,7 @@ var gameSettings = {
 		textShadowColor:'#6D2767',
 		background:{
 			base0: { src:'assets/bg_game4.png'},
-			base1: { src:'assets/bg_game4_hill1.png'},
+			base1: { src:'assets/bg_game4_hill.png'},
 			base2:   { src:'assets/bg_empty.png'},
 			base3: { src:'assets/bg_game4_house.png'}
 		},
@@ -136,7 +136,7 @@ var gameSettings = {
 		status:{totalColor:'#000', playerColor:'#333', statusColor:'#333'},
 		players:20,
 		totalBall:3,
-		timer:80000
+		timer:60000
 	},
 	game5:{
 		name:'GLASS BRIDGE',
@@ -149,7 +149,7 @@ var gameSettings = {
 			base3: { src:'assets/bg_empty.png'}
 		},
 		items:{
-			booth: { src:'assets/item_booth1.png'}
+			booth: { src:'assets/item_booth.png'}
 		},
 		path:{
 			width:1000,
@@ -162,7 +162,7 @@ var gameSettings = {
 		glassAlpha:.3,
 		players:10,
 		length:15,
-		timer:80000
+		timer:60000
 	},
 	game6:{
 		name:'SURVIVAL GAME',
@@ -170,9 +170,9 @@ var gameSettings = {
 		textShadowColor:'#6D2767',
 		background:{
 			base0: { src:'assets/bg_game6.png'},
-			base1: { src:'assets/bg_game6_hill1.png'},
+			base1: { src:'assets/bg_game6_hill.png'},
 			base2: { src:'assets/bg_empty.png'},
-			base3: { src:'assets/bg_game6_tree1.png'}
+			base3: { src:'assets/bg_game6_tree.png'}
 		},
 		path:{
 			width:2000,
@@ -185,7 +185,7 @@ var gameSettings = {
 		bar:{background:'#fff', empty:'#ccc', health:'#238C00', blood:'#D90000', playerColor:'#333', turnColor:'#fff', turnShadowColor:'#333'},
 		instruction:{color:'#000', x:0, y:5},
 		length:30,
-		timer:50000
+		timer:15000
 	}
 }
 
@@ -196,7 +196,7 @@ var players_arr = [
 
 //guard assets
 var guards_arr = [
-	{src:'assets/guard1.png'}
+	{src:'assets/guard.png'}
 ];
 
 //game text desiplay
@@ -233,8 +233,8 @@ var gameCustomScore = {
 //Social share, [SCORE] will replace with game score
 var shareEnable = true; //toggle share
 var shareText = 'SHARE YOUR SCORE'; //social share message
-var shareWinTitle = 'I won 45.6 billion on Survival Game (Squid Game).';//social share score title
-var shareWinMessage = 'I won 45.6 billion on Survival Game (Squid Game)! Try it now!'; //social share score message
+var shareWinTitle = 'I won 45.6 billion on Survival Game.';//social share score title
+var shareWinMessage = 'I won 45.6 billion on Survival Game! Try it now!'; //social share score message
 var shareTitle = 'High score on Survival Game is ROUND [SCORE].';//social share score title
 var shareMessage = 'ROUND [SCORE] is my new high score on Survival Game! Try it now!'; //social share score message
 				
