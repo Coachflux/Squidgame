@@ -52,16 +52,16 @@ function initPreload(){
 			{src:'assets/item_result.png', id:'itemResult'},
 			{src:'assets/item_result_p.png', id:'itemResultP'},
 			{src:'assets/button_restart.png', id:'buttonRestart'},
-			{src:'assets/button_facebook1.png', id:'buttonFacebook'},
-			{src:'assets/button_twitter1.png', id:'buttonTwitter'},
-			{src:'assets/button_whatsapp1.png', id:'buttonWhatsapp'},
-			{src:'assets/button_fullscreen1.png', id:'buttonFullscreen'},
-			{src:'assets/button_sound_on1.png', id:'buttonSoundOn'},
-			{src:'assets/button_sound_off1.png', id:'buttonSoundOff'},
-			{src:'assets/button_music_on1.png', id:'buttonMusicOn'},
-			{src:'assets/button_music_off1.png', id:'buttonMusicOff'},
+			{src:'assets/button_facebook.png', id:'buttonFacebook'},
+			{src:'assets/button_twitter.png', id:'buttonTwitter'},
+			{src:'assets/button_whatsapp.png', id:'buttonWhatsapp'},
+			{src:'assets/button_fullscreen.png', id:'buttonFullscreen'},
+			{src:'assets/button_sound_on.png', id:'buttonSoundOn'},
+			{src:'assets/button_sound_off.png', id:'buttonSoundOff'},
+			{src:'assets/button_music_on.png', id:'buttonMusicOn'},
+			{src:'assets/button_music_off.png', id:'buttonMusicOff'},
 			{src:'assets/button_exit1.png', id:'buttonExit'},
-		{src:'assets/button_settings1.png', id:'buttonSettings'}];
+		{src:'assets/button_settings.png', id:'buttonSettings'}];
 
 
 	for(var n = 0; n<players_arr.length; n++) {
