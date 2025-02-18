@@ -34,10 +34,10 @@ var gameSettings = {
 		textColor:'#CC17B2',
 		textShadowColor:'#6D2767',
 		background:{
-			base0: { src:'assets/bg_game_sky1.png'},
-			base1: { src:'assets/bg_game1_hill1.png'},
-			base2: { src:'assets/bg_cloud1.png'},
-			base3: { src:'assets/bg_game1_grass1.png'}
+			base0: { src:'assets/bg_game1.png'},
+			base1: { src:'assets/bg_game1_hill.png'},
+			base2: { src:'assets/bg_cloud.png'},
+			base3: { src:'assets/bg_game1_grass.png'}
 		},
 		items:{
 			tree: { src:'assets/item_game1_tree.png'},
@@ -53,7 +53,7 @@ var gameSettings = {
 		},
 		instruction:{color:'#000', x:0, y:0},
 		countTime:6,
-		peekTime:3,
+		peekTime:2,
 		decreaseTime:.2,
 		players:100,
 		length:90,
