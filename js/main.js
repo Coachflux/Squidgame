@@ -8,7 +8,7 @@ var contentH = 576;
 
 var viewport = {isLandscape:true};
 var landscapeSize = {w:stageW, h:stageH, cW:contentW, cH:contentH};
-var portraitSize = {w:768, h:1100, cW:576, cH:1000};
+var portraitSize = {w:768, h:1024, cW:576, cH:900};
 
 /*!
  * 
