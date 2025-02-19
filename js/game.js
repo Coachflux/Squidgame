@@ -36,7 +36,7 @@ var gameSettings = {
 		background:{
 			base0: { src:'assets/bg_game1.png'},
 			base1: { src:'assets/bg_game1_hill.png'},
-			base2: { src:'assets/bg_cloud.png'},
+			base2: { src:''},
 			base3: { src:'assets/bg_game1_grass.png'}
 		},
 		items:{
@@ -56,7 +56,7 @@ var gameSettings = {
 		peekTime:2,
 		decreaseTime:.2,
 		players:100,
-		length:90,
+		length:85,
 		dead:[5,15],
 		timer:120000
 	},
