@@ -36,7 +36,7 @@ var gameSettings = {
 		background:{
 			base0: { src:'assets/bg_game1.png'},
 			base1: { src:'assets/bg_game1_hill.png'},
-			base2: { src:''},
+			base2: { src:'assets/bg_cloud.png'},
 			base3: { src:'assets/bg_game1_grass.png'}
 		},
 		items:{
