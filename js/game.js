@@ -78,7 +78,7 @@ var gameSettings = {
 			dark:{base:'#F7E6BB', path:'#F7E6BB'}
 		},
 		instruction:{color:'#000', x:0, y:33},
-		players:20,
+		players:60,
 		candy:[
 				{src:'assets/candy_01.png', finalSrc:'assets/candy_final_01.png', checkpoint:[{x:95,y:340},{x:397,y:340},{x:246,y:85}]},
 				{src:'assets/candy_02.png', finalSrc:'assets/candy_final_02.png', checkpoint:[{x:244,y:90},{x:407,y:209},{x:345,y:396},{x:145,y:396},{x:85,y:208}]},
@@ -87,7 +87,7 @@ var gameSettings = {
 		],
 		drawColor:'#A66B35',
 		drawStroke:20,
-		timer:30000
+		timer:80000
 	},
 	game3:{
 		name:'TUG OF WAR',
@@ -111,9 +111,9 @@ var gameSettings = {
 		},
 		instruction:{color:'#fff', x:0, y:5},
 		players:20,
-		oppSpeed:[10, 20],
+		oppSpeed:[15, 20],
 		userSpeed:[20, 35],
-		timer:30000
+		timer:60000
 	},
 	game4:{
 		name:'MARBLE GAME',
@@ -160,8 +160,8 @@ var gameSettings = {
 		},
 		instruction:{color:'#fff', x:0, y:5},
 		glassAlpha:.3,
-		players:10,
-		length:15,
+		players:20,
+		length:25,
 		timer:60000
 	},
 	game6:{
@@ -185,7 +185,7 @@ var gameSettings = {
 		bar:{background:'#fff', empty:'#ccc', health:'#238C00', blood:'#D90000', playerColor:'#333', turnColor:'#fff', turnShadowColor:'#333'},
 		instruction:{color:'#000', x:0, y:5},
 		length:30,
-		timer:15000
+		timer:30000
 	}
 }
 
